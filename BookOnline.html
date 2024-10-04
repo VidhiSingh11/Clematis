@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Online</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Corben&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<style>
+    .card {
+      max-width: 350px;
+      margin: 0 auto;
+      background-color:#0b3910;
+      border-color: #42553d;
+      border-width: 1px;
+      overflow: hidden;
+    
+      margin-bottom: 30px;
+    }
+    
+    .card img {
+      width: 100%;
+      height: 320px;
+      object-fit: cover;
+    }
+    .card:hover img {
+  filter: brightness(70%);
+}
+    
+    .card-body {
+      padding: 40px;
+    }
+    
+    .card-title {
+      font-size: 20px;
+      
+      margin-bottom: 10px;
+      color: #fff8eb;
+      font-family: 'Corben',cursive;
+    }
+   
+
+ /* .card-description::after {
+  content: "";
+  position: absolute;
+  bottom: 15;
+  left: 0;
+  width: 80%;
+  height: 1px;
+  background-color: #ccc;
+} */
+    
+    .card-description {
+      font-size: 16px;
+      color: #fff8eb;
+      margin-bottom: 20px;
+      position: relative;
+    }
+    
+    .card-button {
+      display: inline-block;
+      padding: 7px 18px;
+      background-color: #e4c58a;
+      color: #0b3910;
+      text-decoration: none;
+      border-radius: 30px;
+      transition: background-color 0.3s ease;
+    }
+    
+    .card-button:hover {
+      background-color: #96ac83;
+    } 
+    .section3 {
+      background-color: #0b3910;
+    }
+    .section3 h2 {
+      font-family: 'Corben',cursive;
+      text-align: center;
+      color: #fff8eb;
+      font-size: 30px;
+    }
+   
+</style>
+<body>
+    <header>
+        <nav>
+          <div class="logo">
+            <h1>Clematis</h1>
+          </div>
+          <ul>
+            <li><a href="index.html"> Home</a></li>
+            <li class="active"><a href="BookOnline.html"> Book Online</a></li>
+            <li><a href="plans.html"> Plans&Pricing</a></li>
+            <li><a href="resources.html"> Resources</a></li>
+            <li><a href="contact.html"> Contact</a></li>
+            <li><a href="login.html"> Log In</a></li>
+          </ul>
+        </nav>
+      </header>
+    <section class="section3">
+        <h2>Our Services</h2>
+        <br>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              
+              <div class="card">
+                <img src="https://static.wixstatic.com/media/53294c7ea2d14b3981047194aa4b263b.jpg/v1/fill/w_540,h_540,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/53294c7ea2d14b3981047194aa4b263b.jpg" alt="Image 1">
+                <div class="card-body">
+                  <h3 class="card-title">Group Wellness</h3>
+                  <br><br>
+                  <p class="card-description">1 hr<br>₹1,500</p>
+                  <a href="#" class="card-button">Book Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="https://static.wixstatic.com/media/017b25bfbcef4497a8a9f798a242f000.jpg/v1/fill/w_540,h_540,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/017b25bfbcef4497a8a9f798a242f000.jpg" alt="Image 2">
+                <div class="card-body">
+                  <h3 class="card-title">Corporate Seminars</h3>
+                  <br><br>
+                  <p class="card-description">1 hr
+      
+                    <br>
+                    ₹1,100</p>
+                  <a href="#" class="card-button">Book Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="https://static.wixstatic.com/media/2f6e9b5249a4471a97f4d563af066a68.jpg/v1/fill/w_540,h_540,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/2f6e9b5249a4471a97f4d563af066a68.jpg" alt="Image 3">
+                <div class="card-body">
+                  <h3 class="card-title">Personal Wellness</h3>
+                  <br><br>
+                  <p class="card-description">1 hr<br>
+                    
+                    ₹900</p>
+                  <a href="#" class="card-button">Book Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="https://static.wixstatic.com/media/11062b_d8ab130fdc214a4ea3315d93ef3ee083~mv2.jpg/v1/fill/w_540,h_540,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_d8ab130fdc214a4ea3315d93ef3ee083~mv2.jpg" alt="Image 4">
+                <div class="card-body">
+                  <h3 class="card-title">Family Workshop</h3>
+                  <br><br>
+                  <p class="card-description">1 hr<br>₹1,500</p>
+                  <a href="#" class="card-button">Book Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="https://static.wixstatic.com/media/11062b_2bdc3812ee0e40cdb9f782330e05e724~mv2.jpeg/v1/fill/w_540,h_540,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_2bdc3812ee0e40cdb9f782330e05e724~mv2.jpeg" alt="Image 5">
+                <div class="card-body">
+                  <h3 class="card-title">Support Group</h3>
+                  <br><br>
+                  <p class="card-description">
+                    1 hr    <br>       
+                                  ₹1,000</p>
+                  <a href="#" class="card-button">Book Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="https://static.wixstatic.com/media/11062b_13c4f52478c94f088d9ca86fc949184a~mv2.jpeg/v1/fill/w_540,h_540,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_13c4f52478c94f088d9ca86fc949184a~mv2.jpeg" alt="Image 6">
+                <div class="card-body">
+                  <h3 class="card-title">Virtual Consultation</h3>
+                  <br><br>
+                  <p class="card-description">1 hr <br>     ₹850</p>
+                  <a href="#" class="card-button">Book Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-content">
+            <p class="footer-text">Clematis</p>
+            <p class="footer-text">contact.info@clematis.co.in</p>
+          </div>
+        </div>
+      </footer>
+      
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>

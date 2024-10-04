@@ -1,0 +1,380 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #0b3910;
+    color: #fff8eb;
+    padding: 50px;
+    text-align: right;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 70px;
+  }
+  
+  nav ul li a {
+    color: #fff8eb;
+    text-decoration: none;
+    font-family: 'Corben', cursive;
+  }
+  
+  nav ul li a i {
+    margin-right: 10px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+  }
+  
+  .logo i {
+    margin-right: 10px;
+  }
+  
+  .logo {
+    position: absolute;
+    top: 45px;
+    left: 45px;
+    font-family: 'Corben', cursive;
+    font-size: 24px;
+    color: #fff8eb;
+  }
+  
+  .log-in {
+    display: inline-block;
+    margin-right: 30px;
+    color: #e4c58a;
+  }
+  
+
+
+
+/* visited link */
+nav ul li a:visited {
+color: #fff8eb;
+}
+
+/* mouse over link */
+
+
+/* selected link */
+nav ul li a:active {
+color: #F08475;
+}
+  
+  .section {
+    padding: 180px;
+    background-image: url('https://static.wixstatic.com/media/11062b_a5c6caa9ab8f4286863f48537191362c~mv2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.3);
+    opacity: 0.8;
+    font-weight: lighter;
+  }
+  
+  .section-text h2 {
+    font-size: 72px;
+    font-family: 'Corben',cursive;
+    font-weight: lighter;
+    text-align: center;
+    color: #060a06;
+    text-align: center;
+  }
+  
+  .section-text p {
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: lighter;
+   text-align: center;
+   color: #060a06;
+  }
+  .section2 {
+    padding: 150px;
+    background-color: #0b3910;
+  }
+  .section2-text h2 {
+    font-family: 'Corben',cursive;
+    text-align: left;
+    color: #fff8eb;
+    font-size: 40px;
+  }
+  .section2-text p {
+    font-family: 'Corben',cursive;
+    text-align: left;
+    color: #fff8eb;
+    font-size: 20px;
+  }
+  
+  .card {
+    max-width: 350px;
+    margin: 0 auto;
+    background-color:#0b3910;
+    border-color: #42553d;
+    border-width: 1px;
+    overflow: hidden;
+  
+    margin-bottom: 30px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+  }
+  .card:hover img {
+filter: brightness(70%);
+}
+  
+  .card-body {
+    padding: 40px;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    
+    margin-bottom: 10px;
+    color: #fff8eb;
+    font-family: 'Corben',cursive;
+  }
+ 
+
+/* .card-description::after {
+content: "";
+position: absolute;
+bottom: 15;
+left: 0;
+width: 80%;
+height: 1px;
+background-color: #ccc;
+} */
+  
+  .card-description {
+    font-size: 16px;
+    color: #fff8eb;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .card-button {
+    display: inline-block;
+    padding: 7px 18px;
+    background-color: #e4c58a;
+    color: #0b3910;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card-button:hover {
+    background-color: #96ac83;
+  }
+  .section3 {
+    background-color: #0b3910;
+  }
+  .section3 h2 {
+    font-family: 'Corben',cursive;
+    text-align: center;
+    color: #fff8eb;
+    font-size: 30px;
+  }
+  .section4 {
+background-color: #fff8eb;
+padding: 80px;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+
+.section4 h2 {
+text-align: center;
+margin-bottom: 20px;
+color: #0b3910;
+font-family: 'Corben',cursive;
+font-size: 40px;
+}
+.section4 p {
+font-family: 'Corben',cursive;
+font-size: 30px;
+text-align: center;
+
+}
+
+.section4 .button {
+display: inline-block;
+padding: 7px 18px;
+text-decoration: none;
+background-color: #0b3910;
+color: #e4c58a;
+font-size: 18px;
+font-family: 'Corben', cursive;
+border: none;
+
+transition: background-color 0.3s ease;
+}
+
+.section4 .button:hover {
+background-color: #54604a;
+}
+.section5 {
+padding: 100px;
+background-color: #0b3910;
+text-align: center;
+
+}
+.section5 h2 {
+font-family: 'Corben', cursive;
+color: #fff8eb;
+font-size: 40px;
+
+}
+.section5 p {
+font-family: Arial, Helvetica, sans-serif;
+color: #fff8eb;
+font-weight: lighter;
+font-size: 15px;
+
+}
+.one {
+background-color: #0b3910;
+overflow: auto;
+}
+
+.one img {
+    width: 50%;
+    height: 450px;
+    transition: transform 0.5s;
+    float: left;
+    overflow: hidden;
+}
+.one:hover img {
+transform: scale(1.1);
+overflow: hidden;
+max-height: 100%;
+}
+.one-button {
+    display: inline-block;
+    padding: 7px 18px;
+    background-color: #e4c58a;
+    color: #0b3910;
+    text-decoration: none;
+    
+    transition: background-color 0.3s ease;
+  }
+  
+  .one-button:hover {
+    background-color: #96ac83;
+    overflow: hidden;
+  }
+  
+  .two {
+background-color: #0b3910;
+overflow: auto;
+}
+.two img {
+    width: 50%;
+    height: 450px;
+    transition: transform 0.5s;
+    float: right;
+    overflow: hidden;
+}
+.two:hover img {
+transform: scale(1.1);
+overflow: hidden;
+max-height: 100%;
+}
+.two-button {
+    display: inline-block;
+    padding: 7px 18px;
+    background-color: #e4c58a;
+    color: #0b3910;
+    text-decoration: none;
+    
+    transition: background-color 0.3s ease;
+  }
+  
+  .two-button:hover {
+    background-color: #96ac83;
+    overflow: hidden;
+  }
+  .slider-container {
+position: relative;
+height: 400px;
+overflow: hidden;
+}
+
+.slider-slide {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+opacity: 0;
+transition: opacity 0.3s ease;
+}
+
+.slider-slide.active {
+opacity: 1;
+}
+
+.slider-slide img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+opacity: 0.7;
+}
+
+.slider-text {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+padding: 50px;
+background-color: #0b3910;
+color: #fff8eb;
+font-size: 24px;
+text-align: center;
+}
+.slider-text h2 {
+font-family: 'Corben', cursive;
+color: #fff8eb;
+font-size: 20px;
+}
+.slider-text p {
+font-family: Arial, Helvetica, sans-serif;
+color: #fff8eb;
+font-size: 15px;
+}
+
+.footer {
+background-color: #0b3910;
+padding: 30px;
+text-align: center;
+}
+
+.footer-text {
+margin: 5px;
+font-size: 16px;
+color: #fff8eb;
+font-family: 'Corben', cursive;
+}
+
+
